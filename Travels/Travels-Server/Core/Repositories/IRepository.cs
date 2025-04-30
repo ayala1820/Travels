@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Repositories
 {
-    internal class IRepository
+    public class IRepository
     {
     }
 }

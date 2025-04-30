@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Services
+namespace Core.Dto
 {
-    public interface IService<T>
+    public class ActivityDto
     {
-        
     }
 }
