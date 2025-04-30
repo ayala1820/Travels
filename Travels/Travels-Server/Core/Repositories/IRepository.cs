@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Core.Repositories
 {
-    public class IRepository
+    public interface IRepository<T>
     {
+        Task<List<T>> GetAll();
+        Task<T> GetById(int id);
+        Task<T> Create(T entity);
+        Task<T> Update(T entity, int id);
+        Task<bool> Remove(int id);
     }
 }
