@@ -1,0 +1,40 @@
+# Build Folders (the folders where build outputs are stored)
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.sln.ide
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Rider specific files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# NuGet Packages
+*.nupkg
+**/packages/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Configuration files
+appsettings.Development.json
+appsettings.json
+
+# Publish folder
+publish/
+
+# Other files
+*.db
+*.pdb
